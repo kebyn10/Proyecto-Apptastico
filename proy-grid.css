@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background:#4b5a65 ;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    
+
+}
+
+nav .logo{
+    justify-content: center;
+    margin: 10px 10px 10px 50px;
+}
+nav .menu{
+    justify-content: center;
+    display: flex;
+    margin: 10px 40px 10px 40px;
+    color: #fff;
+    padding: 20px;
+  
+   
+  
+}
+nav .menu p{
+    margin-left: 10px;
+
+
+}
+
+.pcirculo{
+
+    color: #fff;
+    border-radius: 30%;
+    width: 55px;
+    height: 30px;
+    background: #2e3235;
+    text-align: center;
+   padding-top: 6px;
+   margin-top: -8px;
+   
+}
+
+
+
+header{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background: #4b5a65;
+    margin: 0;
+    padding: 50px 40px 0px 50px;
+}
+
+
+header .celu{
+    display: flex;
+    margin-bottom: 0;
+}
+
+
+
+header .contenido{
+    width: auto;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .contenido h2{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+header .contenido .t1{
+    color: #fff;
+    margin-bottom:20px ;
+   
+}
+
+header .contenido .t2{
+    color: #747f86;
+}
+
+
+header .contenido .botunes{
+    display: flex;
+    margin: 60px;
+    padding: 10px;
+}
+
+header .contenido .botunes .bto1{
+margin: 5px;
+border-radius: 50px;
+border: solid  #419ad4;
+width: 180px;
+height: 40px;
+background:  #419ad4;
+box-shadow: 5px 5px 10px rgb(48, 47, 47);
+color:#fff ;
+}
+
+
+header .contenido .botunes p{
+height: 40px;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+display: flex;
+justify-content: center;
+color: #fff;
+}
+
+
+header .contenido .botunes .bto2{
+    width: 180px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+
+
+}
+
+header .contenido .botunes .bto2 img{
+ margin-right: 5px;
+
+}
+
+
+
+
+
+
+.marcas{
+ 
+    display:flex ;
+    justify-content: space-around;
+    padding: 20px ;
+    background: #dbdbdb;
+    margin: 0;
+}
+
+.cosas{
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 50px 0px 50px;
+    padding: 30px;
+
+}
+
+.cosas .c{
+   
+    text-align: center;
+   padding-top: 100px;
+  
+}
+
+.cosas .c img{
+    margin-bottom: 15px;
+}
+.cosas .c button{
+    margin:  30px;
+    border-radius: 8px;
+    border: solid  #419ad4;
+    width: 180px;
+    height: 40px;
+    background:  #419ad4;
+    box-shadow: 5px 5px 10px rgb(48, 47, 47);
+    color:#fff ;
+    
+}
+
+.proyect{
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin: 0px 0px 0px 50px;
+    padding: 30px;
+}
+
+.proyectos h2{
+    margin: 0px 50px 0px 70px;
+
+}
+
+
+
+
+
+
+
+.info{
+    display: flex;
+    height: 500px;
+    margin: 0px 50px 0px 50px;
+    padding: 30px;
+    justify-content: center;
+  
+}
+
+.info .ss1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info .ss1 .dd1{
+    display: flex;
+    margin: 20px;
+    color: #747f86;
+}
+
+.info .ss1 .dd1 .dd1s{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    line-height:23px;
+}
+.info .ss1 .dd1 .dd1s h3{
+   color: #000000;
+}
+
+.info .ss1  .abajo{
+    
+    margin:30px;
+    color: #419ad4;
+}
+
+.sec2 .parrafos1{
+    margin: 25px;
+    line-height:23px;
+    color: #747f86;
+}
+
+ .color-azul{
+    color: #419ad4;
+    text-decoration: none;
+}
+ .rema{
+   font-size: 20px;
+   text-decoration: none;
+  color: #000000;
+}
+
+
+.v{
+    margin-left:30px ;
+}
+
+.fecha{
+    text-decoration: none;
+    color: #9da1a3;
+    font-size: 13px;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    border-top: solid #9da1a3  1px;
+    margin: 20px 50px 0px 50px;
+}
+
+footer .copy{
+    margin: 10px;
+   
+    color: #747f86;
+}
+
+footer .iconos img{
+    margin-left: 10px;
+
+}
+
+
+
+@media (max-width:768px) {
+
+    
+
+    nav{
+        background:#4b5a65 ;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        width: auto;
+    
+    }
+
+ 
+    
+    header .contenido{
+        width: 300px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+.cv{
+    margin-right: 5px;
+   width: 400px;
+   
+   }
+   header .contenido .botunes{
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+}
+.cosas {
+   display: flex;
+   flex-direction: column;
+}
+
+.proyectos{
+    text-align: center;
+    margin-top: 900px;
+}
+.proyect{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+  
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 700px;
+    text-align: center;
+}
+
+footer{
+   display: flex;
+   justify-content: end;
+   margin-top: 600px;
+   text-align: center;
+}
+
+}
+
+@media (max-width:731px) {
+
+    .cv{
+      
+       width: 0px;
+       visibility: hidden 
+       }
+
+       header .contenido{
+        
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 80px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 700px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        justify-content: end;
+        margin-top: 600px;
+        text-align: center;
+     }
+
+}
